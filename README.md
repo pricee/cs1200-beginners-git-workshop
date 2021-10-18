@@ -64,7 +64,7 @@ Then type the following command to commit the changes to your **local repository
 
 Once the changes are committed, let's push them to your Github repo.
 
-`$ git push -u origin`
+`$ git push`
 
 You should now see the changes on your Github repo.
 
