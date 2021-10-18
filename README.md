@@ -28,6 +28,9 @@ To check if you have git installed on your machine, type `$ git` into your termi
 
 `$ git config --global user.email "email@example.com"`
 
+Return to the Github repository for this workshop. Fork this repository using the link below the topbar:
+  ![How to fork a repository](https://help.github.com/assets/images/help/repository/fork_button.jpg)
+  
 **Copy** your new repo's clone url:
 
 ![Clone button](https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png)
