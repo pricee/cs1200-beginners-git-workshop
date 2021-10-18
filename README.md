@@ -1,4 +1,4 @@
-# cs1200-beginners-git-workshop
+# CS1200 Beginners Git Workshop
 
 Git instructions taken from [NUWIT Website Hack Day 2021](https://github.com/britneyart80/hack_day_2021)
 
