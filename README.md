@@ -7,6 +7,7 @@ Git instructions taken from [NUWIT Website Hack Day 2021](https://github.com/bri
 - [Setting up Github](#setup)
 - [Commit Changes to Git and Github](#commit-changes)
 - [Branching](#branching)
+- [Merging](#merging)
 
 <a name="installing-git"></a>
 ### Installing Git 
@@ -22,11 +23,11 @@ To check if you have git installed on your machine, type `$ git` into your termi
 
 **(Optional)** Type the following into terminal to add a username to your Git. It can be your Github username, or just your name:
 
-`$ git config --global user.name "[GITHUB USERNAME]"`
+`git config --global user.name "[GITHUB USERNAME]"`
 
 **(Optional)** And also type the following into terminal to match your Git email to your Github email. **This email must match the one you associated with your Github account**:
 
-`$ git config --global user.email "email@example.com"`
+`git config --global user.email "email@example.com"`
 
 Return to the Github repository for this workshop. Fork this repository using the link below the topbar:
   ![How to fork a repository](https://help.github.com/assets/images/help/repository/fork_button.jpg)
@@ -39,7 +40,7 @@ Return to the Github repository for this workshop. Fork this repository using th
 
 **Type** the following command into your terminal, **pasting** the git clone url you just copied:
 
-```$ git clone [COPIED GIT CLONE URL]```
+```git clone [COPIED GIT CLONE URL]```
 
 and press enter...
 
@@ -50,21 +51,21 @@ You should now have this repo on your machine!
 
 To see all the files you've changed, type:
 
-`$ git status`
+`git status`
 
 To stage your changes to be committed, type:
 
-`$ git add .` OR
-`$ git add [file name]` if you only want to commit certain files
+`git add .` OR
+`git add [file name]` if you only want to commit certain files
 
 Then type the following command to commit the changes to your **local repository**. Your local repository is the git repository that is tracking the changes on your laptop only. Your **remote repository** is your Github repository, the one that saves all your changes online.
 
-`$ git commit -m "Add my name"` OR
-`$ git commit` and type out your commit message in the text editor. If you do this one, make sure you set your default text editor to one you know how to use (vim can be tricky). [Here are instructions on how to do this](https://docs.github.com/en/get-started/getting-started-with-git/associating-text-editors-with-git)
+`git commit -m "Add my name"` OR
+`git commit` and type out your commit message in the text editor. If you do this one, make sure you set your default text editor to one you know how to use (vim can be tricky). [Here are instructions on how to do this](https://docs.github.com/en/get-started/getting-started-with-git/associating-text-editors-with-git)
 
 Once the changes are committed, let's push them to your Github repo.
 
-`$ git push`
+`git push`
 
 You should now see the changes on your Github repo.
 
@@ -72,3 +73,40 @@ You can use those three commands to save your work throughout your coding proces
 
 <a name="branching"></a>
 ### Branching
+
+Branching lets you "branch" out from the original code base and make changes to just that branch. Branches are useful when you're collaborating with multiple people on the same repository because it allows each collaborator to make changes independently of each other.
+
+To see all branches, type:
+
+`git branch`
+
+To make a new branch, type:
+
+`git branch [branch name]`
+
+To work on a specific branch, type:
+
+`git checkout [branch name]`
+
+To make sure you have all your collaborators' changes and branches, type:
+
+`git pull`
+
+<a name="merging"></a>
+### Merging
+
+When you've finished working on your branch and want to merge it back into the main code base:
+
+To see what branch you're on, type:
+
+`git status` OR `git branch`
+
+Say you want to merge a branch into your main branch. If you aren't on the branch you want to merge, type:
+
+`git checkout [merging branch name]`
+
+Next, type:
+
+`git merge main` OR `git merge [merging into branch name]`
+
+If you have any merge conflicts, make sure your resolve them, commit your changes to your branch, and then resume merging.
