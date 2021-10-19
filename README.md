@@ -95,7 +95,7 @@ To make sure you have all your collaborators' changes and branches, type:
 <a name="merging"></a>
 ### Merging
 
-When you've finished working on your branch and want to merge it back into the main code base:
+When you've finished working on your branch, commit all your changes to the branch. To merge this branch back into the main code base:
 
 To see what branch you're on, type:
 
