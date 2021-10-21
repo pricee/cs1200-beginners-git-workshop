@@ -38,6 +38,26 @@ Return to the Github repository for this workshop. Fork this repository using th
 
 ![Url to clone](https://help.github.com/assets/images/help/repository/https-url-clone.png)
 
+In your terminal, navigate to the folder/directory you want to put your project in. 
+
+To navigate into a folder, type `cd [folder name]`
+
+To go back a folder, type `cd ..`
+
+To see where you are in your file system, type:
+
+Linux/Mac: `pwd`
+
+Windows: `cd`
+
+To see what files/folders you have in your current directory, type:
+
+Linux/Mac: `ls`
+
+Windows: `dir`
+
+For more information on using the terminal, go [here](https://enexdi.sciencesconf.org/data/pages/windows_vs_mac_commands_1.pdf)
+
 **Type** the following command into your terminal, **pasting** the git clone url you just copied:
 
 ```git clone [COPIED GIT CLONE URL]```
