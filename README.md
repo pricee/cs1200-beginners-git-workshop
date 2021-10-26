@@ -125,7 +125,7 @@ If git says "the current branch has no upstream branch" when you type `git push`
 
 `git push --set-upstream origin [branch name]`
 
-If you then get an error saying that you need to use a personal access token, follow [these instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+If you then get an error saying that you need to use a personal access token, follow [these instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). In the long run, it's probably better to use SSH with git. If this is something you want to do, go [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
 
 Now, let's merge this branch back into the main code base.
 
