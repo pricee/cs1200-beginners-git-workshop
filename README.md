@@ -69,6 +69,8 @@ You should now have this repo on your machine!
 <a name="commit-changes"></a>
 ### Commit Changes to Git and Github
 
+Navigate into your github repo folder in your terminal.
+
 To see all the files you've changed, type:
 
 `git status`
