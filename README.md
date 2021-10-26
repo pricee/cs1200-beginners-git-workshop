@@ -21,11 +21,11 @@ To check if you have git installed on your machine, type `$ git` into your termi
 ### Setting up Github
 [Create a github account.](https://github.com/join)
 
-**(Optional)** Type the following into terminal to add a username to your Git. It can be your Github username, or just your name:
+Type the following into terminal to add a username to your Git. It can be your Github username, or just your name:
 
 `git config --global user.name "[GITHUB USERNAME]"`
 
-**(Optional)** And also type the following into terminal to match your Git email to your Github email. **This email must match the one you associated with your Github account**:
+And also type the following into terminal to match your Git email to your Github email. **This email must match the one you associated with your Github account**:
 
 `git config --global user.email "email@example.com"`
 
