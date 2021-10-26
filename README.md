@@ -117,7 +117,17 @@ To make sure you have all your collaborators' changes and branches, type:
 <a name="merging"></a>
 ### Merging
 
-When you've finished working on your branch, commit all your changes to the branch. To merge this branch back into the main code base:
+When you've finished working on your branch, commit all your changes to the branch. 
+
+**If you get an errors at this point, don't freak out!**
+
+If git says "the current branch has no upstream branch" when you type `git push`, type:
+
+`git push --set-upstream origin [branch name]`
+
+If you then get an error saying that you need to use a personal access token, follow [these instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
+Now, let's merge this branch back into the main code base.
 
 To see what branch you're on, type:
 
