@@ -8,6 +8,7 @@ Git instructions taken from [NUWIT Website Hack Day 2021](https://github.com/bri
 - [Commit Changes to Git and Github](#commit-changes)
 - [Branching](#branching)
 - [Merging](#merging)
+- [Questions](#questions)
 
 <a name="installing-git"></a>
 ### Installing Git 
@@ -89,6 +90,8 @@ Once the changes are committed, let's push them to your Github repo.
 
 `git push`
 
+**If you then get an error saying that you need to use a personal access token**, follow [these instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). In the long run, it's probably better to use SSH with git. If this is something you want to do, go [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
+
 You should now see the changes on your Github repo.
 
 You can use those three commands to save your work throughout your coding process.
@@ -125,20 +128,30 @@ If git says "the current branch has no upstream branch" when you type `git push`
 
 `git push --set-upstream origin [branch name]`
 
-If you then get an error saying that you need to use a personal access token, follow [these instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). In the long run, it's probably better to use SSH with git. If this is something you want to do, go [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
-
 Now, let's merge this branch back into the main code base.
 
 To see what branch you're on, type:
 
 `git status` OR `git branch`
 
-Say you want to merge a branch into your main branch. If you aren't on the branch you want to merge, type:
+Say you want to merge a branch into your main branch. We'd first need to make sure we're working on the main branch. Type:
 
-`git checkout [merging branch name]`
+`git checkout main`
 
 Next, type:
 
-`git merge main` OR `git merge [merging into branch name]`
+`git merge [branch name]`
 
 If you have any merge conflicts, make sure your resolve them, commit your changes to your branch, and then resume merging.
+
+You can alternatively make a pull request on the Github website.
+
+<a name="questions"></a>
+### Any Questions?
+Email us at:
+
+Emma Price - price.em@northeastern.edu
+
+Gillian Lentini - lentini.g@northeastern.edu 
+
+Dania Alnahdi - alnahdi.d@northeastern.edu
