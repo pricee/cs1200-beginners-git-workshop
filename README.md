@@ -148,6 +148,12 @@ You can alternatively make a pull request on the Github website.
 
 <a name="questions"></a>
 ### Any Questions?
+#### Spring 2022
+Email me at:
+
+Emma Price - price.em@northeastern.edu
+
+#### Fall 2021
 Email us at:
 
 Emma Price - price.em@northeastern.edu
