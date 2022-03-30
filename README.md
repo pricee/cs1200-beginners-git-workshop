@@ -35,8 +35,6 @@ Return to the Github repository for this workshop. Fork this repository using th
   
 **Copy** your new repo's clone url:
 
-![Clone button](https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png)
-
 ![Url to clone](https://help.github.com/assets/images/help/repository/https-url-clone.png)
 
 In your terminal, navigate to the folder/directory you want to put your project in. 
@@ -58,6 +56,8 @@ Linux/Mac: `ls`
 Windows: `dir`
 
 For more information on using the terminal, go [here](https://enexdi.sciencesconf.org/data/pages/windows_vs_mac_commands_1.pdf)
+
+Alternatively, you can navigate to the folder in which you want put your repo, right click it, and click "Open Terminal at Folder" or "Open PowerShell window here"
 
 **Type** the following command into your terminal, **pasting** the git clone url you just copied:
 
